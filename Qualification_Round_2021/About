@@ -1,10 +1,10 @@
 It was my first time in the google code jam, and it was a good experience, as I was able to score the 30 points needed to move on to the next round.
 
-Revsort(7/7)
+---Revsort(7/7)---
 The goal of this exercise was to create a program wich would tell you the cost of sorting a list using the "Revsort" algorithm.
 Python functions was pretty useful as you can reverse list and slices of lists pretty easily.
 
-Moons and Umbrellas(16/17)
+---Moons and Umbrellas(16/17)---
 The aim of this challenge was to return the lowest cost Cody-Jamal needed to pay in copyrights.
 The input was something like "C??J?C", where C where moons, J umbrellas and ? blank spaces.
 CJ as a price of X and JC a price of Y.
@@ -19,7 +19,7 @@ So the algorithm that scored 16 points works as follows: filter the "?" and eval
 
 The downside of this solution is that it does not take into account the extra point, where X and Y can be < 0.
 
-Revsort Engeeniring(7/18)
+---Revsort Engeeniring(7/18)---
 The objective here was to find a list with N elements with a cost of Q, if it exists return one possibility, else return IMPOSSIBLE.
 To find the solution, my program checks all the permutations possible with a list of lenght N, and stops when one result is found.
 This worked with Test Set 1, where N <= 7, but exceeded the memory limit in Test Set 2 (100! is a big big number).
